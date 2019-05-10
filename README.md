@@ -1,4 +1,4 @@
-### 秒杀系统整合demo
+### 秒杀系统整合
 
 #### 简介
 &emsp;&emsp;该项目起源于[慕课网秒杀系列课程](https://www.imooc.com/u/2145618/courses?sort=publish)（共四套）,由于课程是2015年的，某些框架和技术都逐渐被替代，我在实现这套课程的时候选用了**springboot + spring data jpa +　freemarker**模板引擎 ， 并且对系统做了**优化**（比如通过**websocket**在秒杀结束后服务端对客户端的实时消息推送），以及使用**redis分布式锁**解决了多线程高并发情况下的线程安全问题。
