@@ -8,12 +8,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/seckill?characterEncoding=UTF-8&useSSL=false
     username: root
-    password: 123456
+    password: xxxxxx
   freemarker:
     prefix: html/
     suffix: .ftl
   redis:
-    host: 120.77.247.132
+    host: 120.77.xxx.xxx
     port: 6379
-    password: wzs
-
+    password: xxx
