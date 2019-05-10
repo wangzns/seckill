@@ -15,9 +15,12 @@
 
 
 #### 使用说明
-&emsp;&emsp;1. 修改yml文件中的mysql用户名密码，以及redis用户名密码即可
-&emsp;&emsp;2. 页面入口  [127.0.0.1/seckill/list](http://127.0.0.1/seckill/list)
-&emsp;&emsp;3. 秒杀压测接口 [127.0.0.1/kill/1000/execution](127.0.0.1/kill/1000/execution)
+&emsp;&emsp;1. 修改yml文件中的mysql用户名密码，以及redis用户名密码即可  
+
+&emsp;&emsp;2. 页面入口  [127.0.0.1/seckill/list](http://127.0.0.1/seckill/list)  
+
+&emsp;&emsp;3. 秒杀压测接口 [127.0.0.1/kill/1000/execution](127.0.0.1/kill/1000/execution)  
+
 &emsp;&emsp;4. 核心类 SecPressureTestService(压测类)， RedisLock（redis分布式锁），WebSocketService（websocket服务端核心类)
 
 
