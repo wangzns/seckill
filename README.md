@@ -13,45 +13,6 @@
 #### 说明
 &emsp;&emsp;该项目主要侧重点在于秒杀的几个接口，以及围绕这些接口作出的性能优化（redis缓存，redis分布式锁）以应对高并发的场景，而前端方面较为简单。
 
-#### 目录结构
-
- ─src
-    ├─main
-    │  ├─java
-    │  │  └─com
-    │  │      └─imooc
-    │  │          └─seckill
-    │  │              ├─common
-    │  │              ├─config
-    │  │              ├─dto
-    │  │              ├─entity
-    │  │              ├─enums
-    │  │              ├─exception
-    │  │              ├─manager
-    │  │              ├─repository
-    │  │              ├─service
-    │  │              │  ├─impl
-    │  │              │  └─SpecialService
-    │  │              ├─vo
-    │  │              └─web
-    │  └─resources
-    │      ├─static
-    │      │  └─js
-    │      └─templates
-    │          └─html
-    └─test
-        ├─java
-        │  └─com
-        │      └─imooc
-        │          └─seckill
-        │              ├─repository
-        │              ├─service
-        │              │  └─impl
-        │              └─web
-        └─resources
-
-
-
 #### 使用说明
 &emsp;&emsp;1. 修改yml文件中的mysql用户名密码，以及redis用户名密码即可  
 
