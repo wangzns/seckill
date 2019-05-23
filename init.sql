@@ -1,6 +1,6 @@
 create database seckill;
 
-use database seckill;
+use  seckill;
 
 -- 秒杀库存表 --
 create table  seckill(
@@ -31,7 +31,7 @@ create table success_killed(
   `create_time` timestamp  not null default current_timestamp comment '创建时间',
   `update_time` timestamp not null default current_timestamp on update current_timestamp comment '更新时间',
   primary key(`id`),
-  unique key `uk_secid_id`(`seckill_id`,`user_phone`)
+  unique key `uk_secid_id`(`seckill_id`,`user_phone`),
   key `idx_create_time`(`create_time`)
 ) ENGINE=InnoDB auto_increment=1000 default charset=UTF8 comment '秒杀明细表';
 
